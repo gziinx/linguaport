@@ -1,0 +1,193 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+
+ul, ol, li {
+    list-style: none;
+}
+
+html, body{
+    scroll-behavior: smooth;
+}
+
+
+
+header{
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    width: 100vw;
+
+}
+header nav ul{
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+}
+
+header nav a {
+    color: rgb(0, 0, 0);
+    padding: 8px;
+    transition: 1s;
+}
+ header nav a:hover{
+     background-color: lightblue;
+     color: black;
+     padding: 8;
+ }
+
+ .grupo{
+     height: 100vh;
+ }
+
+ #vermelho{
+     background-color: #ffffff;
+
+ }
+ #verde{
+     background-color: #000000;
+ }
+ #azul{
+     background-color: #ffffff;
+ }
+ #amarelo{
+     background-color: #000000;
+ }
+ #roxo{
+     background-color: #ffffff;
+ }
+
+ 
+ 
+ .barro{
+     width: 70vh;
+     margin-left: 60vh;
+     
+ }
+ 
+ .kurosaki{
+     width: 70vh;
+     margin-top: 4vh;
+ }
+ 
+ .hirako{
+     width: 40vw;
+     margin-top: 32.8vh;
+     margin-left: 25vw;
+ }
+
+ .aizen{
+     width: 90vh;
+     margin-left:50vh;
+     margin-top: 39.5vh ;
+     
+ }
+
+ .starrk{
+     float: right;
+     width: 108.5vh;
+ }
+
+.titulo1{
+    text-align: center;
+    color: white;
+    font-size: 200px;
+    position: relative;
+    top: -1300px;
+    margin-left: 100px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.titulo2{
+    text-align: center;
+    color: white;
+    font-size: 170px;
+    position: relative;
+    top: -1300px;
+    margin-left: 100px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.titulo3{
+    text-align: center;
+    color: white;
+    font-size:170px;
+    position: relative;
+    margin-left: 100px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    top: 45px;
+}
+
+.titulo4{
+    text-align: center;
+    color: white;
+    font-size: 250px;
+    position: relative;
+    top: -1300px;
+    margin-left: 100px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.titulo5{
+    text-align: center;
+    color: white;
+    font-size: 250px;
+    position: relative;
+    top: -1300px;
+    margin-left: -1800px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.texto1{
+    color: white;
+    text-align: center;
+    position: relative;
+    top: -1300px;
+    width: 100vh;
+    margin-left: 800px;
+    font-size: 70px;
+}
+
+.texto2{
+    color: white;
+    text-align: center;
+    position: relative;
+    top: -1300px;
+    width: 200vh;
+    margin-left: 10px;
+    font-size: 70px;
+}
+
+.texto3{
+    color: white;
+    text-align: center;
+    position: relative;
+    width: 200vh;
+    margin-left: 10px;
+    font-size: 70px;
+    top: 50px;
+}
+
+.texto4{
+    color: white;
+    text-align: center;
+    position: relative;
+    top: -1300px;
+    width: 200vh;
+    margin-left: 10px;
+    font-size: 50px;
+}
+
+.texto5{
+    color: white;
+    text-align: center;
+    position: relative;
+    top: -1800px;
+    width: 60vh;
+    margin-left: 1500px;
+    font-size: 50px;
+}

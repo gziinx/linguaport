@@ -1,0 +1,346 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+
+ul, ol, li {
+    list-style: none;
+}
+
+html, body{
+    scroll-behavior: smooth;
+}
+
+
+
+header{
+    background-color: #67ABFE;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 5%;
+
+}
+header nav ul{
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+}
+
+header nav a {
+    color: rgb(0, 0, 0);
+    padding: 0px;
+    transition: 1s;
+}
+ header nav a:hover{
+     background-color: lightblue;
+     color: black;
+     padding: 8;
+ }
+
+ .grupo{
+     height: 100vh;
+ }
+
+ #vermelho{
+     background-color: #91C3EE;
+
+ }
+ #verde{
+     background-color: #ffffff;
+ }
+ #azul{
+     background-color: #91C3EE;
+ }
+ #amarelo{
+     background-color: #ffffff;
+ }
+ #roxo{
+     background-color: #91C3EE;
+ }
+ #cinza{
+    background-color:  #ffffff;
+
+ }
+
+ .logo1{
+    height: 30px;
+    width: 30px;
+ }
+ 
+ .barro{
+     width: 55vh;
+     margin-left: 10vh;
+     margin-top: 260px;
+     
+ }
+ 
+ .kurosaki{
+     width: 177.8vh;
+     height: 21.3vh;
+     margin-top: 70vh;
+ }
+
+ .autores{
+     width: 55vw;
+     height: 35vw;
+     margin-top: 29.2vh;
+     margin-left: -1px;
+ }
+
+ .aizen{
+     width: 35vh;
+     margin-left:130vh;
+     margin-top: 20vh ;
+     
+ }
+
+ .starrk{
+     float: right;
+     width: 35vh;
+     height: 50vh;
+     margin-right: 130vh;
+     margin-top: 10vh;
+     background-attachment: fixed;
+ }
+
+ .lilinete{
+    float: right;
+    height: 50vh;
+    width: 40vh;
+    margin-top: -50vh;
+    margin-right: 70vh;
+}
+
+.arrancar{
+    float: right;
+    width: 35vh;
+    height: 50vh;
+    margin-top: -50vh;
+    margin-right: 15vh;
+}
+
+.grama{
+    width: 30vh;
+    margin-left: 80vh;
+    margin-top: 615px;
+    align-items: center;
+    
+}
+
+.lp1{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 100px;
+    position: relative;
+    top: 50px;
+    margin-left: 100px;
+    font-family: serif;
+}
+
+.principais2{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 80px;
+    position: relative;
+    top: 35px;
+    margin-left: -0px;
+    font-family: serif;
+}
+
+.obra3{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size:80px;
+    position: relative;
+    margin-left: -0px;
+    font-family: serif;
+    top: 35px;
+}
+
+.generos4{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 80px;
+    position: relative;
+    top: 35px;
+    margin-left: 50px;
+    font-family: serif;
+}
+
+.principaismovi5{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 80px;
+    position: relative;
+    top: 35px;
+    margin-left: -0px;
+    font-family: serif;
+}
+
+.gramatica6{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+    position: relative;
+    top: 35px;
+    margin-left: -0px;
+    font-family: serif;
+}
+
+.texto1{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    position: relative;
+    top: -900px;
+    width: 80vh;
+    margin-left: 80px;
+    font-size: 30px;
+
+    line-height: 1.6;
+    text-align: justify; /* Justifica o texto */
+    margin: 0; /* Garante que o parágrafo não tenha margens extras */
+}
+
+.texto2{
+    color: black;
+    text-align: left;
+    float: right;
+    position: relative;
+    top: 250px;
+    width: 75vh;
+    font-size: 28px;
+    margin-right: 0px;
+}
+
+.texto3{
+    color: white;
+    text-align: left;
+    float: left;
+    position: relative;
+    top: 105px;
+    width: 75vh;
+    font-size: 22px;
+    margin-left: 125px;
+}
+
+.texto4{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    position: relative;
+    top: -1200px;
+    width: 200vh;
+    margin-left: 10px;
+    font-size: 50px;
+}
+
+.texto5{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    position: relative;
+    top: -1800px;
+    width: 60vh;
+    margin-left: 1500px;
+    font-size: 50px;
+}
+.card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-top: 20px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%; /* Garante que o card ocupe o espaço disponível */
+}
+.elemento{
+    width: 100px;
+    height: 100px;
+}
+
+.texto32{
+    color: white;
+    text-align: center;
+    float: left;
+    position: relative;
+    top: 2px;
+    width: 100vh;
+    font-size: 22px;
+    margin-left: 400px;
+}
+
+
+
+
+/*                               */
+
+@media (max-width: 640px) {
+    header {
+        height: auto;
+    }
+    header nav ul {
+        flex-direction: column;
+        align-items: center;
+        padding: 8px;
+    }
+    header nav a {
+        font-size: 14px;
+        padding: 8px;
+    }
+
+    .grupo {
+        height: auto;
+    }
+
+    .barro,
+    .kurosaki,
+    .autores,
+    .aizen,
+    .starrk,
+    .lilinete,
+    .arrancar,
+    .grama {
+        width: 90%;
+        margin: 10px auto;
+    }
+
+    .lp1,
+    .principais2,
+    .obra3,
+    .generos4,
+    .principaismovi5,
+    .gramatica6 {
+        font-size: 24px;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .texto1,
+    .texto2,
+    .texto3,
+    .texto4,
+    .texto5 {
+        font-size: 14px;
+        width: 90%;
+        margin: 0 auto;
+        text-align: justify;
+    }
+
+    .card {
+        padding: 15px;
+        margin: 10px auto;
+        max-width: 100%;
+    }
+
+    .elemento {
+        width: 50px;
+        height: 50px;
+    }
+}

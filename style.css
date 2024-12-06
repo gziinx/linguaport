@@ -208,6 +208,7 @@ header nav a {
 }
 
 .texto2{
+<<<<<<< HEAD
     color: black;
     text-align: left;
     float: right;
@@ -227,6 +228,25 @@ header nav a {
     width: 75vh;
     font-size: 22px;
     margin-left: 125px;
+=======
+    color: rgb(0, 0, 0);
+    text-align: center;
+    position: relative;
+    top: -1300px;
+    width: 200vh;
+    margin-left: 10px;
+    font-size: 70px;
+}
+
+.texto3{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    position: relative;
+    width: 0%;
+    font-size: 20vh;
+    margin-top: -700px;
+    margin-left: 9px;
+
 }
 
 .texto4{
@@ -263,6 +283,7 @@ header nav a {
 .elemento{
     width: 100px;
     height: 100px;
+<<<<<<< HEAD
 }
 
 .texto32{

@@ -1,266 +1,120 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
-a{
+a {
     text-decoration: none;
 }
-
 ul, ol, li {
     list-style: none;
 }
-
-html, body{
+html, body {
     scroll-behavior: smooth;
 }
 
-
-
-header{
+header {
     background-color: #67ABFE;
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     height: 5%;
-
 }
-header nav ul{
+header nav ul {
     display: flex;
     justify-content: space-between;
     padding: 16px;
 }
-
 header nav a {
-    color: rgb(0, 0, 0);
+    color: black;
     padding: 0px;
     transition: 1s;
 }
- header nav a:hover{
-     background-color: lightblue;
-     color: black;
-     padding: 8;
- }
+header nav a:hover {
+    background-color: lightblue;
+    color: black;
+    padding: 8px;
+}
 
- .grupo{
-     height: 100vh;
- }
+.grupo {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#vermelho {
+    background-color: #91C3EE;
+}
+#verde {
+    background-color: #ffffff;
+}
+#azul {
+    background-color: #91C3EE;
+}
+#gnr {
+    background-color: #ffffff;
+}
+#roxo {
+    background-color: #91C3EE;
+}
+#cinza {
+    background-color: #ffffff;
+}
 
- #vermelho{
-     background-color: #91C3EE;
-
- }
- #verde{
-     background-color: #ffffff;
- }
- #azul{
-     background-color: #91C3EE;
- }
- #amarelo{
-     background-color: #ffffff;
- }
- #roxo{
-     background-color: #91C3EE;
- }
- #cinza{
-    background-color:  #ffffff;
-
- }
-
- .logo1{
+.logo1 {
     height: 30px;
     width: 30px;
- }
- 
- .barro{
-     width: 55vh;
-     margin-left: 10vh;
-     margin-top: 260px;
-     
- }
- 
- .kurosaki{
-     width: 177.8vh;
-     height: 21.3vh;
-     margin-top: 70vh;
- }
-
- .autores{
-     width: 55vw;
-     height: 35vw;
-     margin-top: 29.2vh;
-     margin-left: -1px;
- }
-
- .aizen{
-     width: 35vh;
-     margin-left:130vh;
-     margin-top: 20vh ;
-     
- }
-
- .starrk{
-     float: right;
-     width: 35vh;
-     height: 50vh;
-     margin-right: 130vh;
-     margin-top: 10vh;
-     background-attachment: fixed;
- }
-
- .lilinete{
-    float: right;
-    height: 50vh;
-    width: 40vh;
-    margin-top: -50vh;
-    margin-right: 70vh;
 }
 
-.arrancar{
-    float: right;
-    width: 35vh;
-    height: 50vh;
-    margin-top: -50vh;
-    margin-right: 15vh;
+.hover-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 20px;
 }
-
-.grama{
-    width: 30vh;
-    margin-left: 80vh;
-    margin-top: 615px;
-    align-items: center;
-    
-}
-
-.lp1{
+.image-wrapper {
+    position: relative;
     text-align: center;
-    color: rgb(0, 0, 0);
-    font-size: 100px;
-    position: relative;
-    top: 50px;
-    margin-left: 100px;
-    font-family: serif;
+    width: 300px; /* Ajuste a largura conforme necessário */
 }
-
-.principais2{
-    text-align: center;
-    color: rgb(0, 0, 0);
-    font-size: 80px;
-    position: relative;
-    top: 35px;
-    margin-left: -0px;
-    font-family: serif;
+.image-wrapper img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
 }
-
-.obra3{
-    text-align: center;
-    color: rgb(0, 0, 0);
-    font-size:80px;
+.image-wrapper h1 {
     position: relative;
-    margin-left: -0px;
-    font-family: serif;
-    top: 35px;
-}
-
-.generos4{
-    text-align: center;
-    color: rgb(0, 0, 0);
-    font-size: 80px;
-    position: relative;
-    top: 35px;
-    margin-left: 50px;
-    font-family: serif;
-}
-
-.principaismovi5{
-    text-align: center;
-    color: rgb(0, 0, 0);
-    font-size: 80px;
-    position: relative;
-    top: 35px;
-    margin-left: -0px;
-    font-family: serif;
-}
-
-.gramatica6{
-    text-align: center;
-    color: rgb(0, 0, 0);
-    font-size: 40px;
-    position: relative;
-    top: 35px;
-    margin-left: -0px;
-    font-family: serif;
-}
-
-.texto1{
-    color: rgb(0, 0, 0);
-    text-align: center;
-    position: relative;
-    top: -900px;
-    width: 80vh;
-    margin-left: 80px;
-    font-size: 30px;
-
-    line-height: 1.6;
-    text-align: justify; /* Justifica o texto */
-    margin: 0; /* Garante que o parágrafo não tenha margens extras */
-}
-
-.texto2{
-    color: black;
-    text-align: left;
-    float: right;
-    position: relative;
-    top: 250px;
-    width: 75vh;
-    font-size: 28px;
-    margin-right: 0px;
-}
-
-.texto3{
     color: white;
-    text-align: left;
-    float: left;
-    position: relative;
-    top: 105px;
-    width: 75vh;
-    font-size: 22px;
-    margin-left: 125px;
-
-
-}
-
-.texto3{
-    color: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.6);
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
     text-align: center;
-    position: relative;
-    width: 0%;
-    font-size: 20vh;
-    margin-top: -700px;
-    margin-left: 9px;
-
+}
+.image-wrapper:hover img {
+    transform: scale(1.1);
+}
+.image-wrapper:hover h1 {
+    opacity: 1;
 }
 
-.texto4{
-    color: rgb(0, 0, 0);
+.obra3,
+.generos4,
+.principaismovi5,
+.gramatica6 {
     text-align: center;
-    position: relative;
-    top: -1200px;
-    width: 200vh;
-    margin-left: 10px;
-    font-size: 50px;
+    font-family: serif;
+    font-size: 80px;
+    color: black;
 }
 
-.texto5{
-    color: rgb(0, 0, 0);
-    text-align: center;
-    position: relative;
-    top: -1800px;
-    width: 60vh;
-    margin-left: 1500px;
-    font-size: 50px;
-}
 .card {
     background-color: #fff;
     border: 1px solid #ddd;
@@ -269,92 +123,229 @@ header nav a {
     padding: 20px;
     margin-top: 20px;
     max-width: 800px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%; /* Garante que o card ocupe o espaço disponível */
-}
-.elemento{
-    width: 100px;
-    height: 100px;
-
+    text-align: justify;
 }
 
-.texto32{
-    color: white;
+.livrobaixo {
+    margin-top: 870px;
+    position: absolute;
+    width: 200vh;
+}
+.texto1 {
+    margin: 20px auto;
+    text-align: justify;
+    font-size: 20px;
+    line-height: 1.6;
+}
+.lp1{
     text-align: center;
-    float: left;
+    font-family: serif;
+    font-size: 80px;
+    color: black;
+    margin-top: 0;
     position: relative;
-    top: 2px;
-    width: 100vh;
-    font-size: 22px;
-    margin-left: 400px;
+    top: -200px;
+}
+
+.principais2 {
+    text-align: center;
+    font-family: serif;
+    font-size: 80px;
+    color: black;
+    margin-top: 0;
+    position: relative;
+    top: -135px;
+}
+
+/* Ajustes finais para a distribuição das imagens */
+.hover-container .image-wrapper:first-child {
+    text-align: left;
+}
+
+.hover-container .image-wrapper:nth-child(2) {
+    text-align: center;
+}
+
+.hover-container .image-wrapper:last-child {
+    text-align: right;
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    scroll-behavior: smooth;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    scroll-behavior: smooth;
+}
+
+.grupo {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.generos4 {
+    text-align: center;
+    font-family: serif;
+    font-size: 80px;
+    color: black;
+}
+
+.generos-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.generos-image {
+    order: 2; /* Coloca a imagem no final, ou seja, à direita */
+    width: 50%;
+    max-width: 500px;
+}
+
+.generos-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.generos-text {
+    order: 1; /* Coloca o texto antes, ou seja, à esquerda */
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    max-width: 600px;
+}
+
+.card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: justify;
+}
+
+.card h3 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #555;
+}
+#roxo {
+    background-color: #91C3EE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 40px;
+}
+
+.principaismovi5 {
+    text-align: center;
+    font-family: serif;
+    font-size: 80px;
+    color: black;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.movimento-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 1200px;
+    padding: 20px;
+}
+
+.movimento-texto {
+    width: 60%;
+    padding-right: 20px;
+}
+
+.movimento-imagem {
+    width: 40%;
+}
+
+.movimento-imagem img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+#cinza {
+    background-color: #f5f5f5; /* Cor de fundo para a seção */
+    padding: 20px;
+}
+
+.gramatica-cards {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.card-left,
+.card-right {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    width: 48%; /* Ajuste para não ocupar toda a largura */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-left h3,
+.card-right h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.card-left p,
+.card-right p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #333;
+}
+
+.imagem-gramatica {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.imagem-gramatica img {
+    width: 50%; /* Ajusta a largura da imagem */
+    max-width: 600px; /* Limita o tamanho da imagem */
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 
-
-
-/*                               */
-
-@media (max-width: 640px) {
-    header {
-        height: auto;
-    }
-    header nav ul {
-        flex-direction: column;
-        align-items: center;
-        padding: 8px;
-    }
-    header nav a {
-        font-size: 14px;
-        padding: 8px;
-    }
-
-    .grupo {
-        height: auto;
-    }
-
-    .barro,
-    .kurosaki,
-    .autores,
-    .aizen,
-    .starrk,
-    .lilinete,
-    .arrancar,
-    .grama {
-        width: 90%;
-        margin: 10px auto;
-    }
-
-    .lp1,
-    .principais2,
-    .obra3,
-    .generos4,
-    .principaismovi5,
-    .gramatica6 {
-        font-size: 24px;
-        margin: 0 auto;
-        text-align: center;
-    }
-
-    .texto1,
-    .texto2,
-    .texto3,
-    .texto4,
-    .texto5 {
-        font-size: 14px;
-        width: 90%;
-        margin: 0 auto;
-        text-align: justify;
-    }
-
-    .card {
-        padding: 15px;
-        margin: 10px auto;
-        max-width: 100%;
-    }
-
-    .elemento {
-        width: 50px;
-        height: 50px;
-    }
-}

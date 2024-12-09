@@ -20,6 +20,7 @@ header {
     left: 0;
     width: 100%;
     height: 5%;
+    z-index: 1000;
 }
 header nav ul {
     display: flex;
@@ -127,7 +128,7 @@ header nav a:hover {
 }
 
 .livrobaixo {
-    margin-top: 870px;
+    margin-top: 832px;
     position: absolute;
     width: 200vh;
 }
@@ -137,15 +138,16 @@ header nav a:hover {
     font-size: 20px;
     line-height: 1.6;
 }
-.lp1{
-    text-align: center;
-    font-family: serif;
-    font-size: 80px;
-    color: black;
-    margin-top: 0;
-    position: relative;
-    top: -200px;
+.lp1 {
+    text-align: center; /* Centraliza o texto */
+    font-family: serif; /* Mantém a fonte */
+    font-size: 80px; /* Define o tamanho da fonte */
+    color: black; /* Define a cor */
+    margin-top: 20px; /* Espaço superior para garantir visibilidade */
+    position: relative; /* Mantém o posicionamento relativo */
+    top: 0; /* Remove o deslocamento */
 }
+
 
 .principais2 {
     text-align: center;
@@ -347,5 +349,139 @@ html, body {
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
+/* Responsividade para telas de até 640px */
+@media (max-width: 640px) {
+    header {
+        height: 5%;
+        z-index: 1000;
+    }
+
+    header nav ul {
+        display: flex;
+        justify-content: space-between;
+        padding: 15px;
+    }
+
+    header nav a {
+        padding: 8px;
+    }
+
+    .grupo {
+        height: auto;
+        padding: 20px;
+    }
+    #vermelho{
+        padding-top: 482px;
+    }
+    .logo1 {
+        height: 30px;
+        width: 30px;
+        margin-right: 30px;
+    }
+
+    .hover-container {
+        display: flex;
+        flex-direction: column; /* Alinha os itens verticalmente */
+        align-items: center; /* Centraliza os itens horizontalmente */
+        gap: 20px; /* Adiciona espaço entre os itens */
+    }
+
+    .hover-container .image-wrapper {
+        width: 80%; /* Reduz a largura dos elementos */
+        max-width: 300px; /* Define um limite máximo de largura */
+        text-align: center; /* Centraliza o conteúdo de cada contêiner */
+    }
 
 
+    .image-wrapper {
+        width: 100%;
+    }
+
+    .obras3,
+    .generos4,
+    .principaismovi5,
+    .gramatica6 {
+        font-size: 40px; /* Diminui o tamanho das fontes */
+    }
+    
+    .principais2 {
+        text-align: center;
+        font-family: serif;
+        font-size: 80px;
+        color: black;
+        margin-top: 0;
+        position: relative;
+        top: 1px;
+    }
+
+    .card { /* Centraliza o card horizontalmente */
+        width: 90%; /* Define a largura para caber na tela menor */
+        max-width: 400px; /* Define um limite máximo para a largura */
+        top: -600;
+    }
+    .livrobaixo {
+        margin-top: 1px;  /* Ajusta a margem superior para evitar que fique muito distante */
+        position: relative; /* Ajusta o posicionamento para ser relativo e não fixo */
+        width: 100%;  /* A largura agora ocupa toda a tela */
+        max-width: 100%;  /* Limita a largura para não ultrapassar a tela */
+    }
+    .livrobaixo {
+        width: 100%;
+        top: 6;
+    }
+
+    .texto1 {
+        font-size: 16px;
+    }
+
+    .principais2 {
+        font-size: 40px;
+    }
+    .lp1{
+        font-size: 40px;
+        top: -400px;
+       
+    }
+
+    .generos-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .generos-image {
+        width: 100%;
+    }
+
+    .generos-text {
+        width: 100%;
+    }
+
+    .movimento-card {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .movimento-texto {
+        width: 100%;
+        padding-right: 0;
+    }
+
+    .movimento-imagem {
+        width: 100%;
+    }
+
+    .gramatica-cards {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .card-left,
+    .card-right {
+        width: 100%;
+    }
+
+    .imagem-gramatica img {
+        width: 100%;
+        max-width: 100%;
+    }
+}

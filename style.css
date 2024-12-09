@@ -79,7 +79,7 @@ header nav a:hover {
 .image-wrapper {
     position: relative;
     text-align: center;
-    width: 300px; /* Ajuste a largura conforme necessário */
+    width: 300px;
 }
 .image-wrapper img {
     display: block;
@@ -139,13 +139,13 @@ header nav a:hover {
     line-height: 1.6;
 }
 .lp1 {
-    text-align: center; /* Centraliza o texto */
-    font-family: serif; /* Mantém a fonte */
-    font-size: 80px; /* Define o tamanho da fonte */
-    color: black; /* Define a cor */
-    margin-top: 20px; /* Espaço superior para garantir visibilidade */
-    position: relative; /* Mantém o posicionamento relativo */
-    top: 0; /* Remove o deslocamento */
+    text-align: center;
+    font-family: serif; 
+    font-size: 80px; 
+    color: black;
+    margin-top: 20px;
+    position: relative;
+    top: 0; 
 }
 
 
@@ -159,7 +159,7 @@ header nav a:hover {
     top: -135px;
 }
 
-/* Ajustes finais para a distribuição das imagens */
+
 .hover-container .image-wrapper:first-child {
     text-align: left;
 }
@@ -216,7 +216,7 @@ html, body {
 }
 
 .generos-image {
-    order: 2; /* Coloca a imagem no final, ou seja, à direita */
+    order: 2;
     width: 50%;
     max-width: 500px;
 }
@@ -228,7 +228,7 @@ html, body {
 }
 
 .generos-text {
-    order: 1; /* Coloca o texto antes, ou seja, à esquerda */
+    order: 1;
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -303,7 +303,7 @@ html, body {
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
 }
 #cinza {
-    background-color: #f5f5f5; /* Cor de fundo para a seção */
+    background-color: #f5f5f5;
     padding: 20px;
 }
 
@@ -320,7 +320,7 @@ html, body {
     border: 1px solid #ddd;
     border-radius: 8px;
     padding: 20px;
-    width: 48%; /* Ajuste para não ocupar toda a largura */
+    width: 48%; 
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
@@ -343,13 +343,13 @@ html, body {
 }
 
 .imagem-gramatica img {
-    width: 50%; /* Ajusta a largura da imagem */
-    max-width: 600px; /* Limita o tamanho da imagem */
+    width: 50%; 
+    max-width: 600px; 
     height: auto;
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
-/* Responsividade para telas de até 640px */
+
 @media (max-width: 640px) {
     header {
         height: 5%;
@@ -381,15 +381,15 @@ html, body {
 
     .hover-container {
         display: flex;
-        flex-direction: column; /* Alinha os itens verticalmente */
-        align-items: center; /* Centraliza os itens horizontalmente */
-        gap: 20px; /* Adiciona espaço entre os itens */
+        flex-direction: column;
+        align-items: center; 
+        gap: 20px;
     }
 
     .hover-container .image-wrapper {
-        width: 80%; /* Reduz a largura dos elementos */
-        max-width: 300px; /* Define um limite máximo de largura */
-        text-align: center; /* Centraliza o conteúdo de cada contêiner */
+        width: 80%;
+        max-width: 300px; 
+        text-align: center; 
     }
 
 
@@ -401,7 +401,7 @@ html, body {
     .generos4,
     .principaismovi5,
     .gramatica6 {
-        font-size: 40px; /* Diminui o tamanho das fontes */
+        font-size: 40px; 
     }
     
     .principais2 {
@@ -414,16 +414,16 @@ html, body {
         top: 1px;
     }
 
-    .card { /* Centraliza o card horizontalmente */
-        width: 90%; /* Define a largura para caber na tela menor */
-        max-width: 400px; /* Define um limite máximo para a largura */
+    .card { 
+        width: 90%; 
+        max-width: 400px;
         top: -600;
     }
     .livrobaixo {
-        margin-top: 1px;  /* Ajusta a margem superior para evitar que fique muito distante */
-        position: relative; /* Ajusta o posicionamento para ser relativo e não fixo */
-        width: 100%;  /* A largura agora ocupa toda a tela */
-        max-width: 100%;  /* Limita a largura para não ultrapassar a tela */
+        margin-top: 1px;  
+        position: relative;
+        width: 100%; 
+        max-width: 100%;  
     }
     .livrobaixo {
         width: 100%;
